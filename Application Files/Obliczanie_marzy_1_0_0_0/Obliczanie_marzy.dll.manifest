@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Obliczanie_marzy.exe" version="1.0.0.0" publicKeyToken="900b659972a6a207" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17368">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jbrgkL7fBxjnPQKq0hB/+93J2d7EPZRwzHDQyqwRt9U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Newtonsoft.Json.dll" size="712464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IsZJ91/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Obliczanie_marzy.deps.json" size="1052">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZyZkVFrGiyMrTkqvH8Isam+1M230VPdlvmXH83Kt37c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Obliczanie_marzy.dll" size="17880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d4XrQWlQ04hcwIy1hGNErqpDL9Cfbu7sO+DWj7ETEEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Obliczanie_marzy.exe" size="150488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QCYZp1sCsk2tP90QsCq4Oo1zafQ2TCk2bpbIDOH/qg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Obliczanie_marzy.runtimeconfig.json" size="515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ia0epcnCC2smZUfvJ8CuOEDKtWQtPCrt8GtwJiRWcd0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KRC6-EDUKATOR\krc1p" issuerKeyHash="63b2583e9eb1180d7cdf49f2ab25149a38634dbe" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/iSzn1vYOvjR5DIY5RDp6VvMV+LdpUjPrENn4+4mnmU=</DigestValue></Reference></SignedInfo><SignatureValue>kNYalOcJChu7UMzlwzY4A+fXnaXe9kCv+DrSblrzIDgH2onaeQj916QsuybnWQNvhn5qRPg+5W8eXkIput5Ueqysi3BPZvIlEJQNDq8qg0OUeQNlrV1UYifQh3+Iu3eq6TQQr8lLJrkefn4qPgGCUOC6asgWxwgisq1XsIZGyVk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p7u6tdDFjPbiphbg7/0mIgGCvrzaw1/g/jeROI9A/7eqmmlzyZxivDmu7SGHZyGQdZMMQz5jZLK22vA/blDe9WFMgKCvd1XwZqClEwqpeUe5dS+rzp/3rKBvoAGeZEMHe7SNxA8NJDB+GZrE2jgZgaI9/dBmlXS+xfjIppB4tDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="659e26eee36743accf48a5dde257cc5be9e910e51832e4d1f83ad85b9fb324fe" Description="" Url=""><as:assemblyIdentity name="Obliczanie_marzy.exe" version="1.0.0.0" publicKeyToken="900b659972a6a207" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KRC6-EDUKATOR\krc1p</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KtXTVaL1fvwtg9hYTAMRnRV9uNG6ccz7n29jFILkpSE=</DigestValue></Reference></SignedInfo><SignatureValue>T1eJ6LzQymlld1jxJ4zxQ4oN64F/WJNOobWMpY4fx0u9Vik2IB8wg+WGnSnfrEhTuhNG6wbSP4asLOyvtMuoCN1oSC90QB6LzCq5K1cMsHn6hdbxQRUVFBKuUB9eiN0Os4s5o+eldvZYl0xwSmAo8Qiskzh3Eb7TDqztNSzjJC0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p7u6tdDFjPbiphbg7/0mIgGCvrzaw1/g/jeROI9A/7eqmmlzyZxivDmu7SGHZyGQdZMMQz5jZLK22vA/blDe9WFMgKCvd1XwZqClEwqpeUe5dS+rzp/3rKBvoAGeZEMHe7SNxA8NJDB+GZrE2jgZgaI9/dBmlXS+xfjIppB4tDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQZyS4nx8sy65Cxr+b0X+gITANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYASwBSAEMANgAtAEUARABVAEsAQQBUAE8AUgBcAGsAcgBjADEAcDAeFw0yNTA4MjExMzUxMDNaFw0yNjA4MjExOTUxMDNaMDExLzAtBgNVBAMeJgBLAFIAQwA2AC0ARQBEAFUASwBBAFQATwBSAFwAawByAGMAMQBwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnu7q10MWM9uKmFuDv/SYiAYK+vNrDX+D+N5E4j0D/t6qaaXPJnGK8Oa7tIYdnIZB1kwxDPmNksrba8D9uUN71YUyAoK93VfBmoKUTCql5R7l1L6vOn/esoG+gAZ5kQwd7tI3EDw0kMH4ZmsTaOBmBoj390GaVdL7F+MimkHi0OQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJ6LpXKg+cuLo3oZHvHZfIc491C9090IwQUa8MwcmjKjAFwcGjdbqk85lHiv2L7tvR8sSJijL6VJgy5FvSMwJAWMQJY/jaw/ly0t0++lBJWBxBv25E7LcerwgEmUFe35SmgR88tutlD75sPUJJ2TXra1YTlzmIutVE/jhrziZ7Ps</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
